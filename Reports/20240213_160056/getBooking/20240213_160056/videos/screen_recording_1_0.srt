@@ -1,0 +1,12 @@
+1
+00:00:00,566 --> 00:00:08,464
+1. sendRequest(findTestObject("getBookingDetailInfo", ["id":id]))
+
+2
+00:00:08,504 --> 00:00:10,210
+5. response = sendRequest(findTestObject("getBookingDetailInfo"))
+
+3
+00:00:10,225 --> 00:00:10,301
+9. verifyResponseStatusCode(response, 200)
+

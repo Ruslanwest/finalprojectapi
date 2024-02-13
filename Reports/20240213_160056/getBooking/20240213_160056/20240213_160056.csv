@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+getBooking,,,,13-02-2024 16:01:07,13-02-2024 16:01:27,20.417s,PASSED
+,,,,,,,
+Test Cases/getBookingDetailInfoWithID,,,,13-02-2024 16:01:07,13-02-2024 16:01:20,12.959s,PASSED
+"sendRequest(findTestObject(""getBookingDetailInfo"", [""id"":id]))",,,,13-02-2024 16:01:08,13-02-2024 16:01:16,7.917s,PASSED
+"response = sendRequest(findTestObject(""getBookingDetailInfo""))",,,,13-02-2024 16:01:16,13-02-2024 16:01:18,1.722s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,13-02-2024 16:01:18,13-02-2024 16:01:18,0.067s,PASSED
+Video,,,,13-02-2024 16:01:20,13-02-2024 16:01:20,0.005s,PASSED
+,,,,,,,
+Test Cases/getBookingId,,,,13-02-2024 16:01:20,13-02-2024 16:01:27,6.961s,PASSED
+"sendRequest(findTestObject(""getBookingID""))",,,,13-02-2024 16:01:20,13-02-2024 16:01:23,2.364s,PASSED
+"response = sendRequest(findTestObject(""getBookingID""))",,,,13-02-2024 16:01:23,13-02-2024 16:01:25,2.197s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,13-02-2024 16:01:25,13-02-2024 16:01:25,0.008s,PASSED
+Video,,,,13-02-2024 16:01:27,13-02-2024 16:01:27,0.003s,PASSED
